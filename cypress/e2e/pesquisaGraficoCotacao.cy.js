@@ -1,4 +1,4 @@
-describe('Validar pesquisa por data no gráico da cotação', () => {
+describe('Validar pesquisa por data no gráfico da cotação', () => {
   it('selecione data inicial e data final e valid retorno no gráfico', () => {
     cy.visit('https://galp.com/corp/pt/investidores/informacao-ao-acionista/acao-da-galp/desempenho-da-acao');
     cy.get(h2).contains('Gráfico da cotação');
